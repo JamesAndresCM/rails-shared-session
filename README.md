@@ -8,6 +8,8 @@
 - A hosts file included, move it to `/etc/hosts`
 
 ## Steps
+- Replace your hosts and Ngnix files [with](https://github.com/JamesAndresCM/rails-shared-session/tree/main/files)
+- Copy the [master key](https://github.com/JamesAndresCM/rails-shared-session/tree/main/files/master.key) file to main_app & main_two_app conf directory 
 - Configure the existing database with users table in [auth engine](https://github.com/JamesAndresCM/rails-shared-session/blob/main/auth_engine/config/database.yml)
 - Clone proyect and navigate to main_app and main_two_app
 - Replace in Boot gemfiles the path to the auth_engine [here](https://github.com/JamesAndresCM/rails-shared-session/blob/main/main_app/Gemfile#L19) and [here](https://github.com/JamesAndresCM/rails-shared-session/blob/main/main_app_two/Gemfile#L44)
